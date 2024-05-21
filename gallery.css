@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('profil\ dan\ background/pngtree-vector-illustration-of-a-lakeside-walkway-with-beautiful-mountain-scenery-in-picture-image_1831597.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    margin: 2em;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 2em;
+    text-align: center;
+}
+
+.sidebar-photo {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid white;
+    padding-left: 1em;
+}
+
+.gallery {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.gallery-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+}
+
+.gallery-item p {
+    margin: 0;
+    color: #f0f0f0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Menambahkan gaya pada tombol navigasi */
+footer button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek hover pada tombol navigasi */
+footer button:hover {
+    background-color: #45a049;
+}
